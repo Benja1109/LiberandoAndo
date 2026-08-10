@@ -1,7 +1,6 @@
 .Title {
     font-family: "Comic Sans MS", cursive, sans-serif;
     font-size: 40px;
-    font-weight: bold;
     text-align: center;
     background-color: brown;
     color: rgb(0, 0, 0);
@@ -21,6 +20,19 @@
     text-align: center;
     color: rgb(0, 0, 0);
     padding: 50px;
+}
+.Video {
+    display: block;
+    margin: 20px auto;
+    align-items: center;
+    border-style:solid
+}
+.Border {
+    border-style: solid;
+    border-width: 4px;
+    border-color: black;
+    padding: 20px;
+    margin: 20px;
 }
 .menu-secundario {
     font-family: "Lucida Console", "Courier New", monospace;
@@ -71,8 +83,8 @@
 }
 nav ul{
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-	background-color:#757575;
-	width: 100%;
+	background-color:#773838;
+	width: 97.85%;
 	list-style-type: disc;
 	text-align: center;
 }
@@ -84,10 +96,10 @@ nav li{
 nav a{
 	text-decoration: none;
 	color: #ffffff;
-	padding: 20px;
-	width: 190px;
+	padding: 1px;
+	width: 500px;
 }
 
 nav li:hover {
-	background-color: rgb(0, 0, 0);
+	background-color: rgb(126, 66, 66);
 }
